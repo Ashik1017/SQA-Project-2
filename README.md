@@ -1,6 +1,6 @@
 # Simple Books API #
 
-This API allows you to reserve a book.
+This API allows us to reserve a book.
 
 The API is available at `https://simple-books-api.glitch.me`
 
@@ -35,7 +35,7 @@ Retrieve detailed information about a book.
 
 POST `/orders`
 
-Allows you to submit a new order. Requires authentication.
+Allows us to submit a new order. Requires authentication.
 
 The request body needs to be in JSON format and include the following properties:
 
@@ -49,7 +49,7 @@ Authorization: Bearer <YOUR TOKEN>
 
 {
   "bookId": 1,
-  "customerName": "John"
+  "customerName": "Ashik"
 }
 ```
 
@@ -59,7 +59,7 @@ The response body will contain the order Id.
 
 GET `/orders`
 
-Allows you to view all orders. Requires authentication.
+Allows us to view all orders. Requires authentication.
 
 ### Get an order ###
 
@@ -83,7 +83,7 @@ PATCH /orders/PF6MflPDcuhWobZcgmJy5
 Authorization: Bearer <YOUR TOKEN>
 
 {
-  "customerName": "John"
+  "customerName": "Ashik"
 }
 ```
 
@@ -116,8 +116,8 @@ The request body needs to be in JSON format and include the following properties
 
  ```
  {
-    "clientName": "Postman",
-    "clientEmail": "valentin@example.com"
+    "clientName": "Ashik",
+    "clientEmail": "ashik@example.com"
 }
  ```
 
